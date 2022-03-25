@@ -1,3 +1,5 @@
+
+// Author : Dean Gal , 207722844
 import java.util.Scanner;
 
 public class Knight {
