@@ -38,34 +38,34 @@ public class Knight {
                 // row+1 , col+-2
                 System.out.println("Moves: ");
                 if ((row_p1 > 0 && row_p1 < 9) && (col_p2 > 0 && col_p2 < 9)) {
-                    System.out.format(" %d  %d\n", row_p1, col_p2);
+                    System.out.format("%d %d\n", row_p1, col_p2);
                 }
                 if ((row_p1 > 0 && row_p1 < 9) && (col_m2 > 0 && col_m2 < 9)) {
-                    System.out.format(" %d  %d\n", row_p1, col_m2);
+                    System.out.format("%d %d\n", row_p1, col_m2);
                 }
 
                 // row-1 , col+-2
                 if ((row_m1 > 0 && row_m1 < 9) && (col_p2 > 0 && col_p2 < 9)) {
-                    System.out.format(" %d  %d\n", row_m1, col_p2);
+                    System.out.format("%d %d\n", row_m1, col_p2);
                 }
                 if ((row_m1 > 0 && row_m1 < 9) && (col_m2 > 0 && col_m2 < 9)) {
-                    System.out.format(" %d  %d\n", row_m1, col_m2);
+                    System.out.format("%d %d\n", row_m1, col_m2);
                 }
 
                 // row+2 , col+-1
                 if ((row_p2 > 0 && row_p2 < 9) && (col_p1 > 0 && col_p1 < 9)) {
-                    System.out.format(" %d  %d\n", row_p2, col_p1);
+                    System.out.format("%d %d\n", row_p2, col_p1);
                 }
                 if ((row_p2 > 0 && row_p2 < 9) && (col_m1 > 0 && col_m1 < 9)) {
-                    System.out.format(" %d  %d\n", row_p2, col_m1);
+                    System.out.format("%d %d\n", row_p2, col_m1);
                 }
 
                 // row-2 , col+-1
                 if ((row_m2 > 0 && row_m2 < 9) && (col_p1 > 0 && col_p1 < 9)) {
-                    System.out.format(" %d  %d\n", row_m2, col_p1);
+                    System.out.format("%d %d\n", row_m2, col_p1);
                 }
                 if ((row_m2 > 0 && row_m2 < 9) && (col_m1 > 0 && col_m1 < 9)) {
-                    System.out.format(" %d  %d\n", row_m2, col_m1);
+                    System.out.format("%d %d\n", row_m2, col_m1);
                 }
             }
         }
