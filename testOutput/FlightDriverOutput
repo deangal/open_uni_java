@@ -1,0 +1,38 @@
+The origin  of the first Flight object is: London
+The destination of the first Flight object is: Paris
+The departure time of the first Flight object is: 09:40
+The duration time of the first Flight object is: 200
+The number of passengers of the first Flight object is: 100
+Is the first Flight object full? false
+The price of the first Flight object is: 1000
+The arrival time of the first Flight object is: 13:00
+Are the first and second Flight objects equal? false
+Were 200 passengers added successfully to the first flight? false
+The total price of the first flight is: 100000
+Does the first flight land before the second flight? true
+The string representation of the first Flight object is: Flight from London to Paris departs at 09:40. Flight is not full.
+The string representation of the second Flight object is: Flight from Tel-Aviv to Rome departs at 10:40. Flight is not full.
+The first flight total price: 100000
+The second flight total price: 75000
+Is the first flight cheaper than the second flight? false
+
+
+my output:
+
+The origin  of the first Flight object is: London
+The destination of the first Flight object is: Paris
+The departure time of the first Flight object is: 09:40
+The duration time of the first Flight object is: 200
+The number of passengers of the first Flight object is: 100
+Is the first Flight object full? false
+The price of the first Flight object is: 1000
+The arrival time of the first Flight object is: 13:00
+Are the first and second Flight objects equal? false
+Were 200 passengers added successfully to the first flight? false
+The total price of the first flight is: 100000
+Does the first flight land before the second flight? true
+The string representation of the first Flight object is: Flight from London to Paris departs at 09:40. Flight is not Full.
+The string representation of the second Flight object is: Flight from Tel-Aviv to Rome departs at 10:40. Flight is not Full.
+The first flight total price: 100000
+The second flight total price: 75000
+Is the first flight cheaper than the second flight? false

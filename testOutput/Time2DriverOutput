@@ -1,0 +1,26 @@
+The hour of the first Time2 object is: 18
+The minute of the first Time2 object is: 33
+The hour of the second Time2 object is: 16
+The minute of the second Time2 object is: 55
+The minutes passed since midnight of the second Time2 object is: 1015
+Is the first time equal to the second time? false
+Is the first time before the second time? false
+Is the first time after the second time? true
+The difference in minutes between the first and second time is: 98
+Adding 100 minutes to time: 18:33 return: 20:13
+The string representation of the first time is: 18:33
+
+
+my output:
+
+The hour of the first Time2 object is: 18
+The minute of the first Time2 object is: 33
+The hour of the second Time2 object is: 16
+The minute of the second Time2 object is: 55
+The minutes passed since midnight of the second Time2 object is: 1015
+Is the first time equal to the second time? false
+Is the first time before the second time? false
+Is the first time after the second time? true
+The difference in minutes between the first and second time is: 98
+Adding 100 minutes to time: 18:33 return: 20:13
+The string representation of the first time is: 18:33
