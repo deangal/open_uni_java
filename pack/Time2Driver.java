@@ -1,5 +1,4 @@
 package pack;
-import pack.Time2;
 
 public class Time2Driver {
 

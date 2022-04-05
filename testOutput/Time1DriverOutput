@@ -22,6 +22,5 @@ Is the first time equal to the second time? false
 Is the first time before the second time? true
 Is the first time after the second time? false
 The difference in minutes between the second and first time is: 1265
-2:15
 Adding 100 minutes to time: 02:15 return: 03:55
 The string representation of the first time is: 02:15

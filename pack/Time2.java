@@ -103,37 +103,25 @@ public class Time2 {
     }
 
     public Time2 addMinutes(int num){
-        int timeHour = _minFromMid / 60;
-        int timeMinute = _minFromMid - (timeHour*60);
-
-        int newHour = timeHour;
-        int newMinute = timeMinute;
-
-        int addHour = num / 60;
-        int addMinute = num - (addHour * 60);
-
-        if( newHour + addHour > 23){
-            newHour = newHour + addHour - 24;
+        int newTime = _minFromMid + num;
+       
+        if( newTime < 0 ){
+            newTime = 24*60 + newTime; 
         } else
 
-        if( newHour + addHour < 0){
-            newHour =  24 + newHour + addHour ;
-        } else
+        if( newTime > 24*60 ){
+            newTime = 0  + newTime; 
+        } 
 
-        if( newMinute + addMinute < 0){
-            newMinute =  60 + newMinute + addMinute ;
-            newHour--;
-        } else
+        int newHour = newTime / 60;
+        int newMinute = newTime - newHour*60;
+        int filterHour;
 
-        if( newMinute + addMinute > 59){
-            newHour = newHour + addHour;    
-            newMinute = newMinute + addMinute - 60;
-            newHour++;
-        } else {
-            newHour = newHour + addHour;
-            newMinute = newMinute + addMinute; 
-
+        if(newHour > 23){
+           filterHour = newHour / 24;
+           newHour = newHour - filterHour*24;
         }
+
         return new Time2(newHour, newMinute);
     }
 

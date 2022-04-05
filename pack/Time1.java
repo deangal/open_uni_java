@@ -26,35 +26,25 @@ public class Time1 {
 
 
     public Time1 addMinutes(int num){
-        int newHour = _hour;
-        int newMinute = _minute;
-
-        int addHour = num / 60;
-        int addMinute = num - (addHour * 60);
-
-        if( newHour + addHour > 23){
-            newHour = newHour + addHour - 24;
+        int newTime = _hour*60 + _minute + num;
+       
+        if( newTime < 0 ){
+            newTime = 24*60 + newTime; 
         } else
 
-        if( newHour + addHour < 0){
-            newHour =  24 + newHour + addHour ;
-        } else
+        if( newTime > 24*60 ){
+            newTime = 0  + newTime; 
+        } 
 
-        if( newMinute + addMinute < 0){
-            newHour = newHour + addHour;    
-            newMinute =  60 + newMinute + addMinute ;
-            newHour--;
-        } else
+        int newHour = newTime / 60;
+        int newMinute = newTime - newHour*60;
+        int filterHour;
 
-        if( newMinute + addMinute > 59){
-            newHour = newHour + addHour;    
-            newMinute = newMinute + addMinute - 60;
-            newHour++;
-        } else {
-            newHour = newHour + addHour;
-            newMinute = newMinute + addMinute; 
-
+        if(newHour > 23){
+           filterHour = newHour / 24;
+           newHour = newHour - filterHour*24;
         }
+
         return new Time1(newHour, newMinute);
     }
     
@@ -84,8 +74,6 @@ public class Time1 {
         return hourString + ":" + minuteString;
          
     }
-
-    
 
     int getHour() {
         return _hour;
@@ -136,11 +124,7 @@ public class Time1 {
     
 
     public static void main(String[] args) {
-        Time1 myObj = new Time1(7, 30); // Create an object of class Main (This will call the constructor)
-        Time1 other = new Time1(1,30); // Create an object of class Main (This will call the constructor)
-
-        // System.out.println( myObj.equals(other));
-        // System.out.println( myObj.minFromMidnight());
-
+        // Time1 myObj = new Time1(23, 30); // Create an object of class Main (This will call the constructor)
+        // Time1 other = new Time1(1,30); // Create an object of class Main (This will call the constructor)
       }
 }
