@@ -1,0 +1,26 @@
+toString after adding 2 flights:
+The flights for airport Tel-Aviv today are:
+Flight from Tel-Aviv to London departs at 12:00. Flight is full.
+Flight from New York to Tel-Aviv departs at 10:50. Flight is full.
+
+After removing the first flight:
+The flights for airport Tel-Aviv today are:
+Flight from New York to Tel-Aviv departs at 10:50. Flight is full.
+
+Take off time of first flight from origin Tel-Aviv, after adding a new flight:
+11:35
+
+How many full flights:
+1
+
+How many flights between Tel-Aviv and London:
+1
+
+Most popular destination:
+Tel-Aviv
+
+Flight with most expensive ticket:
+Flight from New York to Tel-Aviv departs at 10:50. Flight is full.
+
+Longest flight:
+Flight from New York to Tel-Aviv departs at 10:50. Flight is full.
